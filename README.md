@@ -42,7 +42,20 @@ CREATE TABLE public.usuario (
     loja VARCHAR(100)
 );
 
-INSERT INTO public.usuario (roupa, preco, loja) VALUES 
+INSERT INTO public.usuario (roupa, preco, loja)
+VALUES 
 ('Camiseta Oversized Preta', 89.90, 'Loja Centro'),
 ('Calça Jeans Baggy', 159.00, 'Loja Shopping'),
--- ... (demais dados fictícios)
+('Vestido Midi Floral', 120.50, 'Loja Online'),
+('Jaqueta Jeans Classic', 199.90, 'Loja Shopping'),
+('Shorts de Linho Bege', 75.00, 'Loja Centro'),
+('Moletom Canguru Cinza', 145.00, 'Loja Online'),
+('Saia Plissada Mid', 95.80, 'Loja Centro'),
+('Camisa Polo Branca', 65.00, 'Loja Shopping'),
+('Blazer Alfaiataria', 250.00, 'Loja Premium'),
+('Top Cropped Canelado', 39.90, 'Loja Online'),
+('Calça Sarja Khaki', 130.00, 'Loja Centro'),
+('Cardigan de Tricô', 110.00, 'Loja Shopping'),
+('Bermuda Tactel Surf', 55.00, 'Loja Online'),
+('Tênis Casual Branco', 180.00, 'Loja Shopping'),
+('Meia Cano Alto Kit', 29.90, 'Loja Centro');
